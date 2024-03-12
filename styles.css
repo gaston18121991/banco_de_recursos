@@ -1,0 +1,42 @@
+body {
+    background-image: url(content/background/obelisco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.title, .paragraph {
+    font-family: "Acme", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+#metallic {
+    background: rgb(251,254,254);
+    background: linear-gradient(90deg, rgba(251,254,254,1) 0%, rgba(199,197,197,1) 35%, rgba(176,177,177,1) 100%);
+}
+
+h2[id="title1"] {
+    padding-top: 10px;
+}
